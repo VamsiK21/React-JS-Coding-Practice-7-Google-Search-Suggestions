@@ -1,0 +1,101 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.g-image {
+  height: 55px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .g-image {
+    height: 95px;
+    width: 290px;
+    margin-bottom: 20px;
+  }
+}
+
+.search-container {
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 60%;
+  }
+}
+
+.icon-container {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-image {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-image {
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+}
+
+.input-style {
+  font-size: 15px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input-style {
+    font-size: 20px;
+  }
+}
+
+.list-container {
+  width: 100%;
+  padding-left: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+}
